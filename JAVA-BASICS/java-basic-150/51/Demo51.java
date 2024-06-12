@@ -12,6 +12,6 @@ public class Demo51{
         System.out.println("Enter the number(string) : ");
         String str = sc.nextLine();
         System.out.println(Integer.parseInt(str));
-        
+        sc.close();
     }
 }

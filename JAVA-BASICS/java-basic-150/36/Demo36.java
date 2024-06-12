@@ -32,5 +32,6 @@ public class Demo36{
         y2 = Math.toRadians(y2);
         System.out.println(x1 + ""+ x2 + "" + y1 + "" + y2);
         System.out.println("The distance is " + r * Math.acos(Math.sin(x1) * Math.sin(y1) + Math.cos(x1) * Math.cos(y1) * Math.cos(x2 - y2)) + " km");
+        sc.close();
     }
 }

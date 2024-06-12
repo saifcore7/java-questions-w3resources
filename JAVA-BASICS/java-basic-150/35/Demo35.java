@@ -17,5 +17,6 @@ public class Demo35{
         System.out.print("Enter the length of one of the sides: ");
         int s = sc.nextInt();
         System.out.println((n*Math.pow(s,2)) / (4*Math.tan(Math.PI/n)));
+        sc.close();
     }
 }
