@@ -1,0 +1,32 @@
+name: Auto Push Changes
+
+on:
+  schedule:
+    - cron: '*/6 * * * *'  # Run every 10 minutes
+
+jobs:
+  auto-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main  # Ensure you are working on the main branch
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Automated commit at $(date)" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push -u origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
