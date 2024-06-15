@@ -1,0 +1,28 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build and test
+        run: |
+          # Add your build and test commands here
+
+      - name: Push to GitHub
+        run: |
+          git config --global user.email "saif7862254j@gmail.com"
+          git config --global user.name "saifcore7"
+          git add .
+          git commit -m "Automated commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
