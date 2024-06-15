@@ -6,6 +6,6 @@ Sample Output:
 import java.io.File;
 public class Demo45{
     public static void main(String[] args) {
-        System.out.println(new File("") + " bytes");
+        System.out.println("saif ali khan" + new File("") + " bytes");
     }
 }
