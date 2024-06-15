@@ -2,7 +2,7 @@ name: Auto Push Changes
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Run every 10 minutes
+    - cron: '*/6 * * * *'  # Run every 10 minutes
 
 jobs:
   auto-push:
@@ -14,6 +14,11 @@ jobs:
         with:
           ref: main  # Ensure you are working on the main branch
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
       - name: Commit changes
         run: |
           git add .
@@ -24,3 +29,4 @@ jobs:
           git push -u origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
