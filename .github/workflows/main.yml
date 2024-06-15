@@ -1,4 +1,0 @@
-name: Automatic Code Push
-
-on:
-  push
