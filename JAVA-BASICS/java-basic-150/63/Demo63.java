@@ -8,6 +8,13 @@ Result: 13
 
 public class Demo63{
     public static void main(String[] args) {
+        public boolean largest(int a, int b) {
+                return true;
+        }
+       
+            public static void main(String[] args) {
+                System.out.println();
+            }
         
     }
 }
