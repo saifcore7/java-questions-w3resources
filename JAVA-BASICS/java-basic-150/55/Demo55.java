@@ -9,5 +9,7 @@ public class Demo55{
     public static void main(String[] args) {
         int s = 86399;
         int m = 86399 / 60;
+        int h = m / 24;
+        System.out.println(h);
     }
 }
