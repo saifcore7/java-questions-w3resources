@@ -5,6 +5,7 @@ Pyt */
 
 public class Demo69{
     public static void main(String[] args) {
-        System.out.println("hello");
+        String str = "Python";
+        System.out.println(str.substring(0, str.length() / 2));
     }
 }
