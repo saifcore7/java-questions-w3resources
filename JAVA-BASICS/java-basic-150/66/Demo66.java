@@ -9,8 +9,8 @@ public class Demo66{
         int s = 0;
         for(int i = 2; i < 100 ; i++) {
             for(int j = 1; j <= i; j++) {
-                if(count == 2) {
-                    s = s + i;
+                if (i%j==0) {
+                    count++;
                 }
             }
         }
