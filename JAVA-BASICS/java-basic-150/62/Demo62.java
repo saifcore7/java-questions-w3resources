@@ -7,7 +7,12 @@ Input the third number : 25
 false */
 
 public class Demo62{
+
+    void sub(int aa, int bb, int cc) {
+
+    }
     public static void main(String[] args) {
-        int a = 15, b = 20, c= 25;
+        Demo62 obj = new Demo62();
+        boolean result = obj.sub(a, b, c);
     }
 }
