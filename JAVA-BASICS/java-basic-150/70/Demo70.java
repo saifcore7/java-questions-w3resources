@@ -7,6 +7,8 @@ PythonTutorialPython */
 
 public class Demo70{
     public static void main(String[] args) {
-        System.out.println("hello");
+        String str1 = "python";
+        String str2 = "tutorial";
+        System.out.println((str1.length() > str2.length()));
     }
 }
