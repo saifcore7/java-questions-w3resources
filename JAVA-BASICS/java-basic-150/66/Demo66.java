@@ -5,7 +5,8 @@ Sum of the first 100 prime numbers: 24133  */
 
 public class Demo66{
     public static void main(String[] args) {
-        
-        System.out.println(Math.sqrt(3));
+        for(int i = 2; i < 100 ; i++) {
+            
+        }
     }
 }
