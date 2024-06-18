@@ -10,6 +10,7 @@ public class Demo62 {
 
     public boolean sub(int aa, int bb, int cc) {
         if (aa - bb >= 20 || bb - cc >= 20 || cc - aa >= 20) {
+            return true;
 
         }
             return false;
@@ -18,5 +19,6 @@ public class Demo62 {
     public static void main(String[] args) {
         Demo62 obj = new Demo62();
         boolean result = obj.sub(15, 20, 25);
+        System.out.println(result);
     }
 }
