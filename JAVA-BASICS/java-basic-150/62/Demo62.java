@@ -9,8 +9,8 @@ false */
 public class Demo62 {
 
     public boolean sub(int aa, int bb, int cc) {
-        if (aa - bb <= 20 || bb - cc <= 20 || cc - aa <= 20) {
-            
+        if (aa - bb >= 20 || bb - cc >= 20 || cc - aa >= 20) {
+
         }
             return false;
     }
