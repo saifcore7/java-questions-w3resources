@@ -15,9 +15,10 @@ public class Demo66{
                 }
             }
             if( count == 2) {
-                System.out.println(i);
+                s = s + i;
             }
         }
+        System.out.println(s);
         
     }
 }
