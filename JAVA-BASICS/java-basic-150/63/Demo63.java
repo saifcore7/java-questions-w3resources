@@ -17,7 +17,7 @@ public class Demo63{
     }
     public static void main(String[] args) {
         Demo63 obj = new Demo63();
-        int result = obj.largest(15,21);
+        int result = obj.largest(15,15);
         System.out.println(result);
     }
 }
