@@ -12,6 +12,9 @@ public class Demo66{
                 if (i%j==0) {
                     count++;
                 }
+                if(count == 2) {
+                    s = s + i;
+                }
             }
         }
         System.out.println(s);
