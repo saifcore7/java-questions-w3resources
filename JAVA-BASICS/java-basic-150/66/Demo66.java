@@ -9,5 +9,6 @@ public class Demo66{
         for(int i = 2; i <=100; i++) {
             s = s + i;
         }
+        System.out.println(s);
     }
 }
