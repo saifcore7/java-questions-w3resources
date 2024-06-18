@@ -7,11 +7,10 @@ Input seconds: 86399
 
 public class Demo55{
     public static void main(String[] args) {
-        int s = 86399;
         int m = 86399 / 60;
-        int m1 = s % 60;
+        int m1 = 86399 % 60;
         int h = m / 60;
         int h1 = m % 60;
-        System.out.println(h + " " + h1 + " " + m1);
+        System.out.println(86399 / 60 + " " + h1 + " " + m1);
     }
 }
