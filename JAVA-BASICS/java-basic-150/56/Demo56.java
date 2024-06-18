@@ -7,6 +7,8 @@ Sample Output:
 
 public class Demo56{
     public static void main(String[] args) {
-        System.out.println("hello");
+        for(int i = 5; i < 20; i++) {
+            
+        }
     }
 }
