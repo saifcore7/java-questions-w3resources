@@ -6,11 +6,15 @@ Input the second number: 20
 Input the third number : 25                                            
 false */
 
-public class Demo62{
+public class Demo62 {
 
     public boolean sub(int aa, int bb, int cc) {
-        return false;
+        if (aa - bb <= 20 || bb - cc <= 20 || cc - aa <= 20) {
+            
+        }
+            return false;
     }
+
     public static void main(String[] args) {
         Demo62 obj = new Demo62();
         boolean result = obj.sub(15, 20, 25);
