@@ -9,9 +9,9 @@ Result: 13
 public class Demo63{
 
     public int largest(int a, int b) {
-        if(a==b) {
-            return 0;
-        }
+        
+        
+
     }
     public static void main(String[] args) {
         Demo63 obj = new Demo63();
