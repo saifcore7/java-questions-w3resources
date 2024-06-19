@@ -6,7 +6,7 @@ true  */
 
 public class Demo78{
     public static void main(String[] args) {
-        int[] a = {5,7};
-        System.out.println(a[0] == 7 || a[1] == 7);
+        int[] a = {3,4};
+        System.out.println(a[0] == 7 || a[1] == 7 || a[0] == 4 || a[1] == 4?"true":"false");
     }
 }
