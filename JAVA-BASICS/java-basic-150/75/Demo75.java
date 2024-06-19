@@ -25,6 +25,7 @@ public class Demo75{
         else {
             System.out.println("Size is less than 2");
         }
+        sc.close();
     }
     public static void main(String[] args) {
         Demo75 obj = new Demo75();
@@ -32,6 +33,6 @@ public class Demo75{
         out.println("Enter the size of array : ");
         int s = sc.nextInt();
         obj.same(s);
-        
+        sc.close();
     }
 }
