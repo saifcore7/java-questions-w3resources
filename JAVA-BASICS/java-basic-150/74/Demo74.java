@@ -2,10 +2,14 @@
 Sample Output:
 Test Data: array = 10, -20, 0, 30, 40, 60, 10 */
 
+import java.util.Scanner;
+
 public class Demo74{
 
-    public static final int SIZE = 10;
+    public static final int SIZE;
     public static void main(String[] args) {
-       int a[] = new int[SIZE];
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the size of array : ");
+       SIZE = sc.nextInt();
     }
 }
