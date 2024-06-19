@@ -19,6 +19,10 @@ public class Demo79{
             a[i - 1] = a[i];
         }
         a[a.length - 1] = firstelement;
+        System.out.println("Array after single left rotation:");
+        for (int i = 0; i < 3; i++) {
+            System.out.print(a[i] + " ");
+        }
         System.out.println();
     }
 }
