@@ -8,6 +8,6 @@ P# */
 public class Demo73{
     public static void main(String[] args) {
         String str1 = "Python", str2 = "Tutorial";
-        System.out.println(str1.substring(0,1) + str2.substring(str2.length() - 1, str2.length()));
+        System.out.println((str1.length() > 0 && str2.length() > 0)?str1.substring(0,1) + str2.substring(str2.length() - 1, str2.length()):"");
     }
 }
