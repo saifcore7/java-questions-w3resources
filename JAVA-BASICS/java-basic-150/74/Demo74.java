@@ -14,7 +14,8 @@ public class Demo74{
        int a[] = new int[SIZE];
        if(SIZE >= 2) {
         for(int i = 0; i < SIZE; i++) {
-            
+            if(a[0] == 10 && a[SIZE - 1] == 10) System.out.println("true");
+
         }
        }
     }
