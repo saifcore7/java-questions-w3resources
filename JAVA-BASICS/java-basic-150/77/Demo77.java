@@ -14,9 +14,7 @@ public class Demo77 {
         int[] a3 = new int[2];
         for (int i = 0; i < 2; i++) {
             if (i == 0)
-                a3[0] = a1[0];
-            if (i == 1)
-                a3[0] = a2[a2.length - 1];
+                a3[i] = a1[i];
         }
         for (int i = 0; i < 2; i++) {
             System.out.print(a3[i] + " ");
