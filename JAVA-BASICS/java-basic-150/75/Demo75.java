@@ -9,8 +9,13 @@ import static java.lang.System.*;
 public class Demo75{
 
     void same(int SIZE) {
+        Scanner sc = new Scanner(in);
         int a[] = new int[SIZE];
-        if(SIZE >= 2)
+        if(SIZE >= 2) {
+            for(int i = 0; i < SIZE; i++) {
+                a[i] = sc.nextInt();
+            }
+        }
     }
     public static void main(String[] args) {
         Demo75 obj = new Demo75();
