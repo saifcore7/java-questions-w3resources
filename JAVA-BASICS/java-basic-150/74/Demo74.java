@@ -12,6 +12,9 @@ public class Demo74{
        System.out.print("Enter the size of array : ");
        int SIZE = sc.nextInt();
        int a[] = new int[SIZE];
+       for(int i = 0; i < SIZE ; i++) {
+        a[i] = sc.nextInt();
+       }
        if(SIZE >= 2) {
         for(int i = 0; i < SIZE; i++) {
             if(a[0] == 10 && a[SIZE - 1] == 10) System.out.println("true");
