@@ -3,7 +3,9 @@ Sample Output:
 Test Data: array = 10, -20, 0, 30, 40, 60, 10 */
 
 public class Demo74{
+
+    public static final int SIZE = 10;
     public static void main(String[] args) {
-       
+       int a[] = new int[SIZE];
     }
 }
