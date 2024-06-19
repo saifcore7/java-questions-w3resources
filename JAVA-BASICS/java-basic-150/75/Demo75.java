@@ -15,6 +15,15 @@ public class Demo75{
             for(int i = 0; i < SIZE; i++) {
                 a[i] = sc.nextInt();
             }
+            if(a[0] == a[SIZE -1]) {
+                System.out.println("true");
+            }
+            else {
+                System.out.println("false");
+            }
+        }
+        else {
+            System.out.println("Size is less than 2");
         }
     }
     public static void main(String[] args) {
