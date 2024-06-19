@@ -11,5 +11,9 @@ public class Demo77{
     public static void main(String[] args) {
         int[] a1 = {50,-20,0};
         int[] a2 = {5,-50,10};
+        int[] a3 = {};
+        for(int i = 0; i < 2; i++) {
+            if(i==0)
+        }
     }
 }
