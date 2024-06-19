@@ -10,7 +10,7 @@ public class Demo75{
 
     void same(int SIZE) {
         int a[] = new int[SIZE];
-
+        if(SIZE >= 2)
     }
     public static void main(String[] args) {
         Demo75 obj = new Demo75();
@@ -18,6 +18,6 @@ public class Demo75{
         out.println("Enter the size of array : ");
         int s = sc.nextInt();
         obj.same(s);
-        same();
+        
     }
 }
