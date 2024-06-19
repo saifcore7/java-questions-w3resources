@@ -14,7 +14,7 @@ public class Demo79{
             a[i] = sc.nextInt();
         }
         for(int i = 0; i <= 3; i++) {
-            a[i++] = a[i];
+            a[i - 1] = a[i];
             System.out.print(a[i] + " ");
         }
         System.out.println();
