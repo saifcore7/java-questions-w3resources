@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class Demo76{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int size1,size2;
-        System.out.println("Enter size of both the arrays");
+       int[] a1 = {1,2,3,4,5};
+       int[] a2 = {1,3,4,5,5};
+
     }
 }
