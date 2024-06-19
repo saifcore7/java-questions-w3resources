@@ -15,6 +15,8 @@ public class Demo79{
         }
         for(int i = 0; i < 3; i++) {
             a[i++] = a[i];
+            System.out.print(a[i] + " ");
         }
+        System.out.println();
     }
 }
