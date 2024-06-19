@@ -24,5 +24,6 @@ public class Demo79{
             System.out.print(a[i] + " ");
         }
         System.out.println();
+        sc.close();
     }
 }
