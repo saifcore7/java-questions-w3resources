@@ -12,6 +12,6 @@ public class Demo73 {
                 ? str1.substring(0, 1) + str2.substring(str2.length() - 1, str2.length())
                 : str1.length() == 0 ? "#" + str2.substring(str2.length() - 1, str2.length())
                         : str2.length() == 0 ? str1.substring(0, 1) + "#"
-                                : (str1.length() == 0 && str2.length() == 0) ? "##" : "No string entered");
+                                :"");
     }
 }
