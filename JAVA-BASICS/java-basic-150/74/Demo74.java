@@ -12,6 +12,10 @@ public class Demo74{
        System.out.println("Enter the size of array : ");
        int SIZE = sc.nextInt();
        int a[] = new int[SIZE];
-       
+       if(SIZE >= 2) {
+        for(int i = 0; i < SIZE; i++) {
+            
+        }
+       }
     }
 }
