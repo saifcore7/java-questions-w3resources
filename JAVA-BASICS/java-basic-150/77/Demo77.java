@@ -15,6 +15,8 @@ public class Demo77 {
         for (int i = 0; i < 2; i++) {
             if (i == 0)
                 a3[i] = a1[i];
+            else 
+                a3[i] = a2[a2.length - 1];
         }
         for (int i = 0; i < 2; i++) {
             System.out.print(a3[i] + " ");
