@@ -10,6 +10,7 @@ public class Demo75{
 
     public void same(int SIZE) {
         int a[] = new int[SIZE];
+
     }
     public static void main(String[] args) {
         Demo75 obj = new Demo75();
