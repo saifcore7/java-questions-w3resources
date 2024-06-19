@@ -19,7 +19,8 @@ public class Demo77 {
                 a3[0] = a2[a2.length - 1];
         }
         for (int i = 0; i < 2; i++) {
-            System.out.println(a3[i] + " ");
+            System.out.print(a3[i] + " ");
         }
+        System.out.println();
     }
 }
