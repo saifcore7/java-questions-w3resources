@@ -1,5 +1,12 @@
+/*73. Write a Java program to create a string taking the first and last characters from two given strings. If the length of each string is 0 use "#" for missing characters.
+Test Data: str1 = " Python"
+str2 = " "
+Sample Output:
+
+P# */
+
 public class Demo73{
     public static void main(String[] args) {
-        System.out.println("hello");
+        String str1 = "Python", str2 = ""
     }
 }
