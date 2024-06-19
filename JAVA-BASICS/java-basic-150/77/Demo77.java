@@ -9,6 +9,7 @@ New Array: [50, 10] */
 
 public class Demo77{
     public static void main(String[] args) {
-        System.out.println("hello");
+        int[] a1 = {50,-20,0};
+        int[] a2 = {5,-50,10};
     }
 }
