@@ -7,6 +7,7 @@ P# */
 
 public class Demo73{
     public static void main(String[] args) {
-        String str1 = "Python", str2 = ""
+        String str1 = "Python", str2 = "Tutorial";
+        System.out.println(str1.substring(0,1));
     }
 }
