@@ -5,8 +5,12 @@ Sample Output:
 
 false */
 
+import java.util.Scanner;
+
 public class Demo76{
     public static void main(String[] args) {
-        System.out.println("hello");
+        Scanner sc = new Scanner(System.in);
+        int size1,size2;
+        System.out.println("Enter size of both the arrays");
     }
 }
