@@ -6,6 +6,7 @@ true  */
 
 public class Demo78{
     public static void main(String[] args) {
-        System.out.println("hello");
+        int[] a = {5,7};
+        System.out.println(a[0] == 7 || a[1] == 7);
     }
 }
