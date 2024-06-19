@@ -8,7 +8,7 @@ import java.util.Scanner;
 import static java.lang.System.*;
 public class Demo75{
 
-    public void same(int SIZE) {
+    void same(int SIZE) {
         int a[] = new int[SIZE];
 
     }
@@ -18,5 +18,6 @@ public class Demo75{
         out.println("Enter the size of array : ");
         int s = sc.nextInt();
         obj.same(s);
+        same();
     }
 }
