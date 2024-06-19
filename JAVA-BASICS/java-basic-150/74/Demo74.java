@@ -4,7 +4,6 @@ Test Data: array = 10, -20, 0, 30, 40, 60, 10 */
 
 import java.util.Scanner;
 
-import javax.print.attribute.standard.Sides;
 
 public class Demo74{
 
@@ -13,5 +12,6 @@ public class Demo74{
        System.out.println("Enter the size of array : ");
        int SIZE = sc.nextInt();
        int a[] = new int[SIZE];
+       
     }
 }
