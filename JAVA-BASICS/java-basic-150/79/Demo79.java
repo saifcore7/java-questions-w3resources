@@ -10,13 +10,16 @@ public class Demo79{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a[] = new int[3];
+        
         for(int i = 0; i < 3; i++) {
             a[i] = sc.nextInt();
         }
+        int firstelement = a[0];
         for(int i = 0; i <= 3; i++) {
             a[i - 1] = a[i];
             System.out.print(a[i] + " ");
         }
+        a[a.length - 1] = firstelement;
         System.out.println();
     }
 }
