@@ -10,9 +10,8 @@ public class Demo81{
         for(int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
-        a[0] = a[2] + a[0];
-        a[2] = a[0] - a[2];
-        a[0] = a[0] - a[2];
+        System.out.println();
+        a[0] = a[2] + a[0];a[2] = a[0] - a[2];a[0] = a[0] - a[2];
         for(int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
