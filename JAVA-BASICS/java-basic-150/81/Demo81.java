@@ -6,6 +6,9 @@ New array after swaping the first and last elements: [40, 30, 20] */
 
 public class Demo81{
     public static void main(String[] args) {
-        System.out.println("hello");
+        int a[] = {20,30,40};
+        for(int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + "");
+        }
     }
 }
