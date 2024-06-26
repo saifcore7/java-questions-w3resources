@@ -7,6 +7,8 @@ Larger value between first and last element: 40 */
 public class Demo80{
     public static void main(String[] args) {
         int a[] = {20,30,40};
-
+        for(int i = 0; i < a.length; i++) {
+            System.out.println(a[i]+ " ");
+        }
     }
 }
