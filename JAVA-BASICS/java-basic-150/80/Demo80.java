@@ -8,6 +8,6 @@ public class Demo80{
     public static void main(String[] args) {
         int a[] = {20,30,40};
         if(a[0] > a[2]) System.out.println("Larger value is" + a[0]);
-        else System.out.println("Larger value is" + a[3]);
+        else System.out.println("Larger value is" + a[2]);
     }
 }
