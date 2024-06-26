@@ -7,8 +7,7 @@ Larger value between first and last element: 40 */
 public class Demo80{
     public static void main(String[] args) {
         int a[] = {20,30,40};
-        for(int i = 0; i < a.length; i++) {
-            System.out.println(a[i]+ " ");
-        }
+        if(a[0] > a[2]) System.out.println("Larger value is" + a[0]);
+        else System.out.println("Larger value is" + a[3]);
     }
 }
