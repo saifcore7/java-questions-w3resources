@@ -4,6 +4,9 @@ divide it by 2 if it is even, or multiply it by 3 and add
 
 public class Demo86{
     public static void main(String[] args) {
-        
+        int n = 6;
+        while(n != 1) {
+            if (n % )
+        }
     }
 }
