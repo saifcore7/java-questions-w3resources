@@ -9,6 +9,8 @@ Result: 1 12 25 -8*/
 
 public class Demo83{
     public static void main(String[] args) {
-        System.out.println("hello");
+        int[] a1 = [1, 3, -5, 4];
+        int[] a2 = [1, 4, -5, -2];
+            
     }
 }
