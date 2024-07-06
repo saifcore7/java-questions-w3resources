@@ -11,6 +11,10 @@ public class Demo83{
     public static void main(String[] args) {
         int[] a1 = [1, 3, -5, 4];
         int[] a2 = [1, 4, -5, -2];
-            
+
+        for(int i = 0; i < 4; i++) {
+            int result = a1[i] * a2[i];
+            System.out.print(result + " ");
+        }    
     }
 }
