@@ -15,5 +15,6 @@ public class Demo87{
             s = s + r;
             n = n / 10;
         }
+        System.out.println("Sum of digits: " + s);
     }
 }
