@@ -12,6 +12,7 @@ public class Demo87{
         int s = 0;
         while(n>0) {
             int r = n % 10;
+            System.out.println(str[r]);
             s = s + r;
             n = n / 10;
         }
