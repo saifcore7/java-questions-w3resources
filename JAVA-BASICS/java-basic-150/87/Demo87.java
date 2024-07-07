@@ -24,5 +24,6 @@ public class Demo87{
             } else {
                 System.out.println(str[s]);
         }
+        System.out.println();
     }
 }
