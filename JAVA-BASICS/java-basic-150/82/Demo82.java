@@ -6,6 +6,8 @@ Largest element between first, last, and middle values: 67 */
 
 public class Demo82{
     public static void main(String[] args) {
-        System.out.println("hello");
+        int[] a = {20, 30, 40, 50, 67};
+        max = a[0];
+        
     }
 }
