@@ -4,6 +4,7 @@ Sample Output:*/
 
 public class Demo85{
     public static void main(String[] args) {
-        
+        Strig str = "Hello how are you ?";
+        System.out.println(str.startsWith("Hello"));
     }
 }
