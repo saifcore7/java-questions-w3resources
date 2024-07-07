@@ -11,18 +11,15 @@ public class Demo87{
         "Five","Six","Seven","Eight","Nine"};
         int s = 0;
         while(n>0) {
-            int r1 = n % 10;
-            s = s + r1;
+            s = s + n % 10;
             n = n / 10;
-            int p = s;
-            if(p>=10){
-                int r2 = p % 10;
+        }
+         if(s>=10){
+                int r2 = s % 10;
                 System.out.println(str[r2]);
-                p /= 10;
+                n /= 10;
             } else {
                 System.out.println(str[s]);
         }
-        }
-        System.out.println("Sum of digits: " + s);
     }
 }
