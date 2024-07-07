@@ -12,12 +12,11 @@ public class Demo87{
         int s = 0;
         while(n>0) {
             s = s + n % 10;
-            n = n / 10;
+            n /= 10;
         }
          if(s>=10){
-                int r2 = s % 10;
-                System.out.println(str[r2]);
-                n /= 10;
+                System.out.println(str[s % 10]);
+                s /= 10;
             } else {
                 System.out.println(str[s]);
         }
