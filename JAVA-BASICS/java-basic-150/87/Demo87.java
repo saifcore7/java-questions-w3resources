@@ -14,10 +14,11 @@ public class Demo87{
             s = s + n % 10;
             n /= 10;
         }
+        System.out.println("Sum of digits :" + s);
          if(s>=10){
             while(s>0) {
                 int r = s % 10;
-                System.out.println(str[r]);
+                System.out.print(str[r] + " ");
                 s /= 10;
             }
             } else {
