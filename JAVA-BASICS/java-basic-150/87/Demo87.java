@@ -15,7 +15,8 @@ public class Demo87{
             n /= 10;
         }
          if(s>=10){
-                System.out.println(str[s % 10]);
+                int r = s % 10;
+                System.out.println(str[r]);
                 s /= 10;
             } else {
                 System.out.println(str[s]);
