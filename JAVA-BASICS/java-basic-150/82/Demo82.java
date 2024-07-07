@@ -9,6 +9,8 @@ public class Demo82{
         int[] a = {20, 30, 40, 50, 67};
         int max = a[0];
         if(max < a[a.length - 1]) max = a[a.length - 1];
+        if(max < a[a.length / 2]) max = a[a.length / 2];
         System.out.println(max);
+
     }
 }
