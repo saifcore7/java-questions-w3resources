@@ -17,11 +17,11 @@ public class Demo87{
          if(s>=10){
             while(s>0) {
                 int r = s % 10;
-                System.out.println("Sum: " + s + " " + str[r]);
+                System.out.println(str[r]);
                 s /= 10;
             }
             } else {
-                System.out.println("Sum: " + s + " " + str[s]);
+                System.out.println(str[s]);
         }
     }
 }
