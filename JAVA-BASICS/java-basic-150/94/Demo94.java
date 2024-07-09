@@ -18,6 +18,6 @@ public class Demo94{
                 k++;
             }
         }
-        System.out.println(Arrays.toString(odd) + Arrays.toString(even));
+        a = odd + even;
     }
 }
