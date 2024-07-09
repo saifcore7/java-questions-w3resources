@@ -12,9 +12,9 @@ public class Demo93{
                 if(a[i] == 20) c = true;
             }
         }
-        if(b == true) System.out.println("True 10 and 10 present");
-        else if (c == true) System.out.println("True 20 and 20 present");
-        else if (b == c) System.out.println("False 20 and 20 present also 10 and 10 present");
+        if(b) System.out.println("True 10 and 10 present");
+        else if (c) System.out.println("True 20 and 20 present");
+        else if (b && c) System.out.println("False 20 and 20 present also 10 and 10 present");
         else System.out.println("Niether 10 , 10 nor 20 , 20");
     }
 }
