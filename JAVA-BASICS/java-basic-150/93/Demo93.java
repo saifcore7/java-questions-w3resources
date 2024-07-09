@@ -3,7 +3,7 @@ element 10 next to 10 or an element 20 next to 20, but not both*/
 
 public class Demo93{
     public static void main(String[] args) {
-        int[] a = [2,3,10,10,34];
+        int[] a = {2,3,10,10,34};
         for(int i = 0; i < a.length; i++) {
             if(a[i] == a[i + 1]) System.out.println("True");
         }
