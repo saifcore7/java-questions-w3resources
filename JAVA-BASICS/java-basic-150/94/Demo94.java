@@ -15,6 +15,6 @@ public class Demo94{
                 even[i] = a[i]; 
             }
         }
-        System.out.println(Array.toString(even));
+        System.out.println(Arrays.toString(even));
     }
 }
