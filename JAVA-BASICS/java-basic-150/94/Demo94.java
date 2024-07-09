@@ -18,6 +18,5 @@ public class Demo94{
                 k++;
             }
         }
-        a = odd + even;
     }
 }
