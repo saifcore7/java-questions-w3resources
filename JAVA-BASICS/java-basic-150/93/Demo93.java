@@ -5,7 +5,7 @@ import java.util.*;
 public class Demo93 {
     public static void main(String[] args) {
         // Define an array of integers
-        int[] nums = {10, 10, 2, 4, 20, 20};
+        int[] nums = {10, 10, 2, 4, 20};
         
         // Initialize counters for even and odd numbers
         int ctr_even = 0, ctr_odd = 0;
