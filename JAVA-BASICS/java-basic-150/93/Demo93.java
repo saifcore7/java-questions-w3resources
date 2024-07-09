@@ -6,7 +6,7 @@ public class Demo93{
         int[] a = {2,3,20,34};
         for(int i = 0; i < a.length - 1; i++) {
             if(a[i] == a[i + 1] && (a[i] == 10 || a[i] == 20) && 
-                (a[i] == a[i + 1] == 10 && a[i] == a[i + 1] == 20)) 
+                (a[i + 1] == 10 && a[i + 1] == 20)) 
                 System.out.println("True");
             else System.out.println("False");
         }
