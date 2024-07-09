@@ -7,9 +7,6 @@ public class Demo93 {
         // Define an array of integers
         int[] nums = {10, 10, 2, 4, 20};
         
-        // Initialize counters for even and odd numbers
-        int ctr_even = 0, ctr_odd = 0;
-        
         // Display the original array
         System.out.println("Original Array: " + Arrays.toString(nums));
 
