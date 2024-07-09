@@ -7,6 +7,7 @@ public class Demo93{
         for(int i = 0; i < a.length - 1; i++) {
             if(a[i] == a[i + 1] && (a[i] == 10 || a[i] == 20)) 
                 System.out.println("True");
+            else System.out.println("False");
         }
     }
 }
