@@ -2,6 +2,7 @@
 given array of integers so that all the odd numbers come 
 before all the even numbers.*/
 
+import java.util.*;
 public class Demo94{
     public static void main(String[] args) {
         int a[] = {1,2,3,4,5,6,7,8,9,10};
@@ -14,5 +15,6 @@ public class Demo94{
                 even[i] = a[i]; 
             }
         }
+        System.out.println(Array.toString(even));
     }
 }
