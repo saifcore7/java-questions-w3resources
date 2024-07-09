@@ -5,7 +5,10 @@ public class Demo93{
     public static void main(String[] args) {
         int[] a = {2,3,10,10,34};
         for(int i = 0; i < a.length; i++) {
-            if(a[i] == a[i + 1]) System.out.println("True");
+            if(a[i] == a[i + 1]) {
+                System.out.println("True");
+                break;
+            }
         }
     }
 }
